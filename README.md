@@ -22,8 +22,8 @@ A simple demo that uses source maps to detect when a user opens dev tools.
 ## How it works
 
 The source map is a special file web developers create to help debug JavaScript code in production. The production code
-is unreadable because we always minify it to save traffic, and the source map allows dev tools to restore the original
-code by.
+is unreadable because it's always minified it to save traffic. The source maps allow dev tools to restore the original 
+code.
 
 The browser learns the URL of the source map file from the `SourceMap <URL>` response header or
 the `//# sourceMappingURL=<url>` comment at the end of a JavaScript file. When a user opens the dev tools, the browser
