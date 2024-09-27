@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "main.js",
+  "sources": [
+    "main.js"
+  ],
+  "sourcesContent": [
+    "the source map can be invalid"
+  ],
+  "names": [
+    "foo",
+    "bar",
+    "xyz"
+  ],
+  "mappings": "AAAAA,BBBBB,CCCC"
+}
